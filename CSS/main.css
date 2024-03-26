@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    display: flex;
+
+    background: #F7F7FE;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.Our-Pricing__header {
+    margin-top: 71px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 40px;
+}
+
+.Our-Pricing__title {
+    color: #6E728E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Our-Pricing__about {}
+
+.Annually-about {
+    color: #6E728E;
+    text-align: right;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-right: 24px;
+} 
+.Monthly-about {
+    color: #6E728E;
+    text-align: right;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left:  24px;
+} 
+.Pricing-content {
+    margin: auto;
+    display: flex;
+   
+} 
+.Pricing-card {
+    margin-top: 60px;
+    margin-bottom: 127px;
+    margin-left: 250px;
+   
+} 
+.card__title {
+    color: #6E728E;
+
+text-align: center;
+font-family: "Montserrat";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+} 
+.card__cost {
+    color: #4A4D60;
+
+font-family: "Montserrat";
+font-size: 67px;
+font-style: normal;
+font-weight: 700;
+line-height: 71px; 
+letter-spacing: -2.16px;
+} 
+.card___info {
+    color: #6E728E;
+
+text-align: center;
+font-family: "Montserrat";
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+} 
+.Pricing-content :nth-child(){
+    background-color: blue;
+} 
+.Pricing__btn {
+    border-radius: 6px;
+    background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+   
+} 
+.btn-link {
+    color: #FFF;
+
+text-align: center;
+font-family: "Montserrat";
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.393px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 66px;
+margin-right: 66px;
+
+}
